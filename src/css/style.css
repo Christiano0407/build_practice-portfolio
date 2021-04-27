@@ -107,8 +107,47 @@ img {
            /*  ======  CONTAINER-GRID ===== */
 .row {
     display: grid;
-    grid-template-columns: repeat(var(--num-of-grid-columns));
+    grid-template-columns: repeat(var(--num-of-grid-columns), 1fr);
+    gap: 0 2rem;
+    padding: var(--section-spacing);
 }
+.hero-content-wrap {
+    grid-column: span var(--num-of-grid-columns);
+    color: var(--light-clr);
+}
+.title {
+    font-family: var(--main-font-family-bold);
+}
+.primary-title {
+    font-size: var(--primary-title-font-size);
+    line-height: 120%; 
+}
+.hero-description {
+    line-height: 3.2rem;
+    margin-top: 2.4rem;
+}
+.hero-btn-group .btn-light {
+    margin: 2.4rem 2.4rem 0 0;
+    display: inline-flex;
+}
+.hero-btn-group .btn-light i {
+    align-self: center;
+    margin-right: .8rem;
+}
+.btn-large {
+    padding: 1.6rem 3.2rem;
+    border-radius: 2.8rem;
+}
+.btn-dark {
+  background-color: var(--dark-clr);
+  color: var(--light-clr);
+  margin-top: 2.4rem;
+  transition: bsckground-color .3s;
+}
+.btn-dark:hover {
+  background-color: #36393f;
+}
+
 
 
 
