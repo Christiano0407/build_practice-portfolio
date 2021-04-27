@@ -148,9 +148,28 @@ img {
   background-color: #36393f;
 }
 
+                 /*   collaboration */
+.collaboration {
 
-
-
+}
+.grid-image {
+    margin-top: 2.4rem;
+    grid-column: span 4;
+}
+.text-group {
+    margin-top:2rem; 
+    grid-column: span var(--num-of-grid-columns); /* (4) */
+}
+.secondary-title {
+    font-size: var(--secondary-title-font-size);
+}
+.text-group p {
+    margin-top: 2rem;
+    line-height: 3.2rem;
+}
+.wave {
+    color: var(--brand-clr);
+}
 
 /*@keyframes wave-animation {*/
 /*    0% {*/

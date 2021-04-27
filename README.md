@@ -5,6 +5,10 @@ Build and deploy a portfolio website ( practice).
 - [unDraw](https://undraw.co/illustrations)
 - [getwaves](https://getwaves.io/)
 - [SpaceGradient](https://mycolor.space/gradient3)
+- [Blobmaker](https://www.blobmaker.app/)
+- [bennettfeely](https://bennettfeely.com/clippy/)
+- [data](https://data.ifrc.org/fdrs/)
+- [appDeveloper](https://app.developer.here.com/15-min-city-map/)
 
 # MIT LICENSE
 
