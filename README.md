@@ -1,6 +1,11 @@
 # build_practice-portfolio
 Build and deploy a portfolio website ( practice). 
 
+# Tools:
+- [unDraw](https://undraw.co/illustrations)
+- [getwaves](https://getwaves.io/)
+- [SpaceGradient](https://mycolor.space/gradient3)
+
 # MIT LICENSE
 
 - [choosealicense](https://choosealicense.com/)
