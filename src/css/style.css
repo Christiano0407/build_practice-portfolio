@@ -267,9 +267,18 @@ img {
 
         /* ====  MEDIAQueries ==== */
 @media screen and (min-width: 1260px) {
-
+  /* .row { */
+  /*   display: grid; */
+  /*   grid-template-columns: repeat(12, 1fr); */
+  /*   gap: 0 2rem; */
+  /*   padding: var(--section-spacing); */
+  /* } */
 }
 
 @media screen and (min-width: 768px) {
-  
+  /* .row { */
+  /*   display: grid; */
+  /*   gap: 0 2rem; */
+  /*   padding: var(--section-spacing); */
+  /* } */
 } 
