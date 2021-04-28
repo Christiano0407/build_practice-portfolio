@@ -328,20 +328,26 @@ img {
     line-height: 1.8;
 }
 
-        /* ====  MEDIAQueries ==== */
-@media screen and (min-width: 1260px) {
-  /* .row { */
-  /*   display: grid; */
-  /*   grid-template-columns: repeat(12, 1fr); */
-  /*   gap: 0 2rem; */
-  /*   padding: var(--section-spacing); */
-  /* } */
-}
 
-@media screen and (min-width: 768px) {
-  /* .row { */
-  /*   display: grid; */
-  /*   gap: 0 2rem; */
-  /*   padding: var(--section-spacing); */
-  /* } */
-} 
+@media screen and (min-width: 1260px) {
+    :root {
+    --primary-title-font-size: 5.6rem; 
+    --secondary-title-font-size: 4.8rem; 
+    
+    --num-of-grid-columns: 8; 
+    --section-spacing: 5.6rem 2.4rem; 
+    }
+
+}
+  
+  @media screen and (min-width: 768px) {
+    :root {
+    
+        --general-font-size: 2rem;
+        --primary-title-font-size: 4.8rem;
+        --secondary-title-font-size: 4rem;
+    
+        --num-of-grid-columns: 12;
+        --section-spacing: 5.6rem 2.4rem;
+    }
+  } 
